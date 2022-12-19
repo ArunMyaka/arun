@@ -1,0 +1,64 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  font-family: 'Open Sans', 'sans-serif';
+}
+.watch {
+  width: 150px;
+  height: 60px;
+  background: black;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.watch > .fa {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  font-size: 2.2em;
+  transform: translateY(-50%);
+}
+
+.df,
+.dfn {
+  position: absolute;
+  left: 20px;
+}
+
+.df {
+  top: 13px;
+  font-size: .68em;
+}
+
+.dfn {
+  top: 26px;
+  color:red;
+  font-size: 1.08em;
+}
+
+.watch:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+  .watch:hover .dfn {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+  
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid #000000;
+  padding:3px; 
+}
+  .boxx{
+    border: 1px solid black;
+    padding: 5px;
+  }
+ 
